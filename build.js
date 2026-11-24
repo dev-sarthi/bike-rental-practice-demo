@@ -14,7 +14,7 @@ const pages = [
 ];
 
 await Promise.all([
-  ...['app.js', 'bikes.js', 'style.css'].map(file => copyFile(new URL('./src/' + file, import.meta.url), new URL(file, output))),
+  ...['app.js', 'bikes.js', 'style.css', 'hero.webp'].map(file => copyFile(new URL('./src/' + file, import.meta.url), new URL(file, output))),
   ...pages.map(([file, title]) => writeFile(new URL(file, output), `<!doctype html>
 <html lang="en">
 <head>

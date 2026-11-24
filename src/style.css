@@ -33,7 +33,7 @@ nav a[aria-current] { text-decoration: underline; }
 .hero .eyebrow, .hero h1 span { color: var(--lime); }
 .hero h1 { font-size: clamp(3.5rem, 7vw, 6.35rem); letter-spacing: -.095em; line-height: .92; margin: 22px 0; }
 .hero-copy > p:not(.eyebrow) { color: #d4e2d6; max-width: 29ch; margin: 26px 0; line-height: 1.55; }
-.hero-art { min-height: 260px; background: radial-gradient(ellipse at bottom right,#869a63,#294f3c 64%,#16382a); }
+.hero-art { min-height: 260px; background: #294f3c url("/hero.webp") center / cover no-repeat; }
 .button { display: inline-flex; justify-content: center; align-items: center; gap: 12px; border: 1px solid transparent; font-weight: 750; background: var(--green); color: white; padding: 10px 17px; border-radius: 9px; text-decoration: none; cursor: pointer; }
 .button:hover { filter: brightness(1.12); }
 .button.lime { background: var(--lime); color: #162b22; }
