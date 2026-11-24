@@ -3,7 +3,7 @@
 A bike-rental practice demo with a sample fleet. Browse bikes by name and type, estimate a rental for 1–12 hours, and rent or return available bikes. The Rented Bikes page totals the hourly rates of all active rentals.
 
 **Live demo**  
-[Open Spoke Bike Rentals](https://bike-rental-practice-demo.tranquildepot1.chatgpt.site) on ChatGPT Sites. Access requires signing in with the ChatGPT account that owns the deployment.
+Vercel deployment pending.
 
 ## Local setup
 
