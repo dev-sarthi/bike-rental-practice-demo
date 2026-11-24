@@ -1,0 +1,12 @@
+{
+  "name": "bike-rental-practice-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "npm run build && node serve.js",
+    "preview": "node serve.js"
+  },
+  "engines": {"node": ">=20"}
+}
